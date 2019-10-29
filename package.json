@@ -1,0 +1,41 @@
+{
+  "name": "operator",
+  "description": "A Twilio-powered desktop soft phone for developers.",
+  "version": "0.0.1",
+  "private": false,
+  "main": "main.js",
+  "homepage": "./",
+  "dependencies": {
+    "electron-is-dev": "^1.1.0"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "dev": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^7.0.0",
+    "electron-devtools-installer": "^2.2.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
+  }
+}
